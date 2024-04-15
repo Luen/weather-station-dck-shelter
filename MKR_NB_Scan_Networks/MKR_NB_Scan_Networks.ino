@@ -38,7 +38,7 @@ const char PINNUMBER[] = SECRET_PINNUMBER;
 
 // initialize the library instance
 
-NB nbAccess;     // include a 'true' parameter to enable debugging
+NB nbAccess(true);     // include a 'true' parameter to enable debugging
 
 NBScanner scannerNetworks;
 
